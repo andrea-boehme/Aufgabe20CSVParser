@@ -25,6 +25,10 @@ public class Person {
         this.height = height;
     }
 
+    public Person() {   // default constructor
+
+    }
+
     public void getPerson() {
         System.out.println(name);
         System.out.println(age);

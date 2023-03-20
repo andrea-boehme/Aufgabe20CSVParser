@@ -51,7 +51,7 @@ public class CSVParser {
         if (persons.isEmpty()) return ""; // if empty list is provided
 
         StringBuilder csv = new StringBuilder(); // create csv file
-        csv.append(generateCSVHeader(persons.get(0))); // erstellt header mit erstes Personen Objekt
+        csv.append(generateCSVHeader(persons.get(0))); // erstellt header
         csv.append(generateCSVContent(persons));
 
         return csv.toString(); // csv string file
